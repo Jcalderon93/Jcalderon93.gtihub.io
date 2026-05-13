@@ -1,96 +1,49 @@
 body {
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 30px;
 }
 
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+h1 {
+  color: #333;
 }
 
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+a {
+  color: #0056b3;
+  text-decoration: none;
 }
 
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+section {
+  margin-top: 20px;
 }
 
-h1,
-h6 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	text-align: center;
-	position: absolute;
-	top: 45%;
-	right: 0;
-	left: 0;
+.proyecto {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
-.shake {
-	animation: shake-animation 4.72s ease infinite;
-	transform-origin: 50% 50%;
-  }
-  .element {
-	margin: 0 auto;
-	width: 150px;
-	height: 150px;
-	background: red;
-  }
-  @keyframes shake-animation {
-	 0% { transform:translate(0,0) }
-	1.78571% { transform:translate(5px,0) }
-	3.57143% { transform:translate(0,0) }
-	5.35714% { transform:translate(5px,0) }
-	7.14286% { transform:translate(0,0) }
-	8.92857% { transform:translate(5px,0) }
-	10.71429% { transform:translate(0,0) }
-	100% { transform:translate(0,0) }
-  }
+/* ESTILOS NUEVOS */
+.contacto {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-left: 5px solid #0077cc;
+  border-radius: 5px;
+}
 
-  .backdrop {
-	  -moz-box-shadow: 0px 6px 5px #111; 
-	  -webkit-box-shadow: 0px 6px 5px #111; 
-	  box-shadow: 0px 2px 10px #111; 
-	  -moz-border-radius:190px; 
-	  -webkit-border-radius:190px; 
-	  border-radius:190px;
-  }
+.boton-cv {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
 
-  .linktree {
-	  width: 120px;
-	  height: 120px;
-	  background-image: url("https://avatars.githubusercontent.com/u/106186354?v=4");
-	  background-size: cover;
-	  background-repeat: no-repeat;
-	  background-position: 50% 50%;
-  }
+.boton-cv:hover {
+  background-color: #005fa3;
+}
