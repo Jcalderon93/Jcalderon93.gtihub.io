@@ -41,7 +41,7 @@ h1, h2 {
 
 .profile-pic {
     width: 140px;       /* Tamaño ajustado para ser profesional */
-    height: 1140px;
+    height: 140px;
     border-radius: 50%;
     border: 3px solid var(--primary);
     box-shadow: 0 0 15px rgba(0, 212, 170, 0.3);
