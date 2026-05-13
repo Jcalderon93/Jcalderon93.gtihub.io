@@ -4,69 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johan Calderón | AI Solutions Architect</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <style>
-        /* (Se mantienen tus estilos originales para conservar la animación) */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --primary: #00d4aa; --secondary: #1a1a2e; --accent: #16213e; --text-light: #e4e4e7; --text-dark: #71717a; --bg-dark: #0f172a; --bg-card: #1e293b; --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-dark); color: var(--text-light); line-height: 1.6; overflow-x: hidden; }
-        .bg-animation { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: linear-gradient(45deg, #0f172a, #1e293b); }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 1; }
-        header { padding: 80px 0; text-align: center; }
-        .hero-content h1 { font-size: 3.5rem; font-weight: 700; margin-bottom: 1rem; background: linear-gradient(135deg, var(--primary), #667eea); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .tech-stack { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 3rem; }
-        .tech-item { display: flex; align-items: center; gap: 0.5rem; padding: 0.8rem 1.5rem; background: var(--bg-card); border-radius: 50px; border: 1px solid rgba(0, 212, 170, 0.2); }
-        .projects { padding: 80px 0; }
-        .section-title { text-align: center; font-size: 2.8rem; margin-bottom: 3rem; }
-        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
-        .project-card { background: var(--bg-card); border-radius: 20px; padding: 2rem; border: 1px solid rgba(255, 255, 255, 0.1); }
-        .contact { padding: 80px 0; background: linear-gradient(135deg, var(--bg-card), var(--accent)); border-radius: 30px; text-align: center; }
-        .cv-button { display: inline-flex; align-items: center; gap: 1rem; padding: 1rem 2rem; background: var(--gradient); color: white; text-decoration: none; border-radius: 50px; font-weight: 700; }
-    </style>
 </head>
 <body>
-    <div class="bg-animation"></div>
-    
-    <div class="container">
-        <header>
-            <div class="hero-content">
-                <h1>Johan Calderón</h1>
-                <p class="subtitle">AI Solutions Architect | Cloud & Automation Specialist</p>
-                <div class="tech-stack">
-                    <div class="tech-item"><i class="fab fa-python"></i> Python</div>
-                    <div class="tech-item"><i class="fas fa-cloud"></i> Azure Cloud</div>
-                    <div class="tech-item"><i class="fas fa-robot"></i> AI Agents</div>
-                    <div class="tech-item"><i class="fas fa-network-wired"></i> Automation</div>
-                </div>
-            </div>
-        </header>
 
-        <section class="projects">
-            <h2 class="section-title">Proyectos en Desarrollo</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3 class="project-title">Sistema de Agentes IA</h3>
-                    <p class="project-description">En desarrollo: Arquitectura de agentes autónomos para optimización de procesos en la nube.</p>
-                </div>
-            </div>
-        </section>
+    <header class="fade-in">
+        <h1>Johan Sebastian Calderón Reyes</h1>
+        <p style="color: var(--text-dark); margin-bottom: 30px; text-align: center;">
+            AI Solutions Architect | Cloud & Automation
+        </p>
+    </header>
 
-        <section class="contact">
-            <div class="contact-content">
-                <h2 class="section-title">Conectemos</h2>
-                <div class="contact-grid" style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-                    <div class="contact-item"><i class="fab fa-linkedin"></i> 
-                        <a href="https://www.linkedin.com/in/johan-sebastian-calderon-reyes-17941b211/" target="_blank">LinkedIn</a>
-                    </div>
-                    <div class="contact-item"><i class="fab fa-github"></i> 
-                        <a href="https://github.com/Jcalderon93/AI-Automation-Architecture" target="_blank">GitHub</a>
-                    </div>
-                </div>
-                <a href="Johan_Calderon_CV.pdf" class="cv-button" download>
-                    <i class="fas fa-download"></i> Descargar CV
-                </a>
-            </div>
-        </section>
-    </div>
+    <section class="fade-in">
+        <h2 style="text-align: center;">Mis Proyectos</h2>
+        
+        <div class="proyecto">
+            <h3>Sistema de Automatización de Agentes</h3>
+            <p>Arquitectura de agentes autónomos desarrollada para optimización de procesos en la nube.</p>
+            <a href="https://github.com/Jcalderon93/AI-Automation-Architecture" class="boton-cv">Ver en GitHub</a>
+        </div>
+
+        <div class="proyecto">
+            <h3>Portafolio Profesional</h3>
+            <p>Documentación y despliegue de soluciones cloud bajo principios de arquitectura escalable.</p>
+            <a href="#" class="boton-cv">Explorar</a>
+        </div>
+    </section>
+
+    <section class="contacto fade-in">
+        <h2>¿Hablamos?</h2>
+        <p>Disponible para nuevos retos en Inteligencia Artificial y Consultoría Técnica.</p>
+        <div style="margin-top: 20px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+            <a href="mailto:jcalderonreyes93@gmail.com" class="boton-cv">
+                <i class="fas fa-envelope"></i> Correo
+            </a>
+            <a href="https://www.linkedin.com/in/johan-sebastian-calderon-reyes-17941b211/" class="boton-cv">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
